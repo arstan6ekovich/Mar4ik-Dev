@@ -125,12 +125,7 @@ const Header: FC<HeaderProps> = (props) => {
 										handleScroll();
 									}}
 								>
-									<h1 className={scss.logo__bg}>
-										Elcho
-										<span>
-											<AnimatedNumbers value={911} />
-										</span>
-									</h1>
+									<h1 className={scss.logo__bg}>Mar4ik_Dev</h1>
 								</ScrollLink>
 							</div>
 							<div className={scss.nav__menu}>

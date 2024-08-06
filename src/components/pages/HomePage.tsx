@@ -113,10 +113,7 @@ const HomePage: FC = () => {
 									variants={animationText}
 									className={`${scss.text__z__index} ${scss.my__name}`}
 								>
-									<FormattedMessage
-										id="page.home.my_name"
-										values={{ span: (chunks) => <span>{chunks}</span> }}
-									/>
+									Hi, I'm Marlen (Mar4ik)
 								</motion.h1>
 								<motion.h1
 									custom={2}
