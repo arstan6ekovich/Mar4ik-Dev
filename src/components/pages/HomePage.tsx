@@ -136,7 +136,7 @@ const HomePage: FC = () => {
 										custom={11}
 										variants={animationIcons}
 										className={scss.icon}
-										href="https://www.linkedin.com/in/elcho"
+										href="https://www.linkedin.com"
 										target="_blank"
 										aria-label="Linkedin"
 									>
@@ -146,7 +146,7 @@ const HomePage: FC = () => {
 										custom={12}
 										variants={animationIcons}
 										className={scss.icon}
-										href="https://github.com/Elkhan2003"
+										href="https://github.com/arstan6ekovich"
 										target="_blank"
 										aria-label="GitHub"
 									>
@@ -164,7 +164,8 @@ const HomePage: FC = () => {
 										custom={1}
 										variants={animationImage}
 										className={`${scss.shape}`}
-									></motion.div>
+									>
+									</motion.div>
 								</Tilt>
 							</div>
 						</div>
