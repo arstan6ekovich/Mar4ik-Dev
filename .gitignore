@@ -38,7 +38,6 @@
 *.jar
 /TEST*.xml
 /Thumbs.db
-*.app
 *.exe
 *.war
 *.mp4
