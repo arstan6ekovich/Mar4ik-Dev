@@ -80,8 +80,9 @@ const Layout: FC<LayoutProps> = ({ children, dir, url }) => {
 			</Head>
 			<div>
 				{loading ? (
-					// <Preloader />
+					<>
 					<PreLoaderDevX />
+					</>
 				) : (
 					<>
 						{isCursor && <canvas className={scss.canvas} id="canvas" />}
