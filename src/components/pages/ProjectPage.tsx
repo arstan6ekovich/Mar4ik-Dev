@@ -30,48 +30,46 @@ interface projectsTypes {
 const ProjectPage: FC = () => {
 	const projects: projectsTypes[] = [
 		{
-			title: 'Elcho Crud ❤️‍🔥',
-			description: <FormattedMessage id="page.project.text.elchocrud" />,
+			title: 'Mar4ik Crud ❤️‍🔥',
+			description: "The Mar4ik project was created specifically for those who are just starting to delve into the IT world, especially in Frontend and Mobile Development. This project is a fully functional backend with flexible capabilities for creating tables and a complete database. Users can create their own endpoints and data tables.",
 			stack: [
 				'NextJS',
 				'TypeScript',
 				'ReduxToolkit',
-				'Express',
-				'Prisma-ORM',
-				'Supabase',
-				'RestAPI'
+				'RestAPI',
+				"Figma"
 			],
-			codeLink: 'https://elchocrud.pro/',
-			demoLink: 'https://elchocrud.pro/',
+			codeLink: '',
+			demoLink: '',
 			image: elchocrud
 		},
 		{
-			title: 'Eco Movie 🐬',
-			description: <FormattedMessage id="page.project.text.eco_movie" />,
+			title: 'Mar4ik Movie 🐬',
+			description: "Mar4ikMovie - a unique website providing fascinating information about movies and TV shows. Here you can discover all the necessary details about your favorite films, actors, directors, ratings, and much more.",
 			stack: ['NextJS', 'TypeScript', 'ReduxToolkit', 'RestAPI'],
-			codeLink: 'https://github.com/Elkhan2003/eco-movie',
-			demoLink: 'https://ecomovie.life/',
+			codeLink: '',
+			demoLink: "",
 			image: eco_movie
 		},
 		{
-			title: 'WeDevX Selenium 🐬',
-			description: <FormattedMessage id="page.project.text.wedevx_selenium" />,
+			title: 'Jordan 🐬',
+			description: "Jordan - an innovative platform dedicated to providing comprehensive information about Jordan. Here, you can explore detailed insights into Jordan's rich history, culture, landmarks, and attractions. Whether you're interested in ancient ruins like Petra, the vibrant culture of Amman, or the stunning landscapes of Wadi Rum, Jordan offers a wealth of knowledge to help you plan your visit and immerse yourself in this remarkable country.",
 			stack: ['NextJS', 'TypeScript', 'Material UI'],
-			codeLink: 'https://github.com/Elkhan2003/Selenium',
-			demoLink: 'https://demo-project.wedevx.co/',
+			codeLink: '',
+			demoLink: '',
 			image: wedevx_selenium
 		},
 		{
-			title: 'Ortodont Group 🪙',
-			description: <FormattedMessage id="page.project.text.ortodont_group" />,
+			title: 'Doctors Group 🪙',
+			description: "Doctor - your reliable source of information on health and medical services. Our platform provides up-to-date and accurate details about various diseases, treatment methods, medical procedures, and preventive measures. Here, you can find advice from qualified specialists, recommendations for choosing doctors, and the latest news and research in the field of medicine. Doctor will help you stay informed about important health aspects and improve your quality of life.",
 			stack: ['NextJS', 'TypeScript', 'SCSS', 'RestAPI'],
-			codeLink: 'https://github.com/Elkhan2003/Next-Dentist',
-			demoLink: 'https://next-dentist911.vercel.app/',
+			codeLink: '',
+			demoLink: '',
 			image: ortodont_group
 		},
 		{
-			title: 'AmoCRM 🐬',
-			description: <FormattedMessage id="page.project.text.amo_crm" />,
+			title: 'ANIME SITE🐬',
+			description: "Anime - your ultimate destination for discovering and exploring the world of anime. Our platform offers comprehensive information on your favorite anime series, characters, genres, and creators. Whether you’re a long-time fan or new to anime, you can find detailed reviews, episode guides, and the latest news about upcoming releases. Dive into the vibrant world of anime with Anime and stay updated on all things related to this captivating art form.",
 			stack: [
 				'Fastify',
 				'TypeScript',
@@ -80,33 +78,33 @@ const ProjectPage: FC = () => {
 				'AmoCRM',
 				'RestAPI'
 			],
-			codeLink: 'https://github.com/Elkhan2003/AmoCRM',
-			demoLink: 'https://rose-uninterested-crane.cyclic.cloud/',
+			codeLink: '',
+			demoLink: '',
 			image: amo_crm
 		},
 		{
-			title: 'Telegram SMS bot 🐬',
-			description: <FormattedMessage id="page.project.text.telegram_sms_bot" />,
-			stack: ['Express', 'TypeScript', 'TelegramBot', 'RestAPI'],
-			codeLink: 'https://github.com/Elkhan2003/telegram-sms-bot',
+			title: 'XB Shop🐬',
+			description: "XB Shop - your ideal online store for convenient shopping. We offer a wide range of products, including electronics, clothing, accessories, and much more to meet all your needs. XB Shop guarantees high-quality products, competitive prices, and excellent customer service. Our user-friendly interface and secure payment system make the shopping process fast and enjoyable. Discover perfect items and enjoy shopping with XB Shop.",
+			stack: ['Express', 'TypeScript', 'Figma', 'RestAPI', ],
+			codeLink: '',
 			demoLink:
-				'https://github.com/Elkhan2003/telegram-sms-bot/blob/main/README.md',
+				'',
 			image: telegram_sms_bot
 		},
 		{
-			title: 'WeDevX Magazine 🐬',
-			description: <FormattedMessage id="page.project.text.devx_magazine" />,
-			stack: ['React', 'SCSS', 'Firebase', 'RestAPI'],
-			codeLink: 'https://github.com/Elkhan2003/DevX-Magazine-Private',
-			demoLink: 'https://devx911.netlify.app/',
+			title: 'Apple Shop 🐬',
+			description: "Apple - your source for information on Apple products and services. Our platform provides detailed reviews and guides on the latest devices, including iPhone, iPad, MacBook, and other innovative Apple products. Discover new features, software updates, and get tips for optimizing your device usage. Apple helps you stay up-to-date with all the latest innovations and find the best solutions for your tech needs. ",
+			stack: ['React', 'SCSS', 'Firebase', 'RestAPI', "Apple"],
+			codeLink: '',
+			demoLink: '',
 			image: devx_magazine
 		},
 		{
 			title: 'Alpha version | DevX IKSU 🐬',
 			description: <FormattedMessage id="page.project.text.devx_iksu" />,
 			stack: ['React', 'TypeScript', 'SCSS', 'Firebase'],
-			codeLink: 'https://github.com/DevX-Karakol-911/DevX-Karakol-beta',
-			demoLink: 'https://devx-kg.netlify.app/',
+			codeLink: '',
+			demoLink: '',
 			image: devx_iksu
 		}
 		// {
