@@ -38,8 +38,8 @@ const ContactPage: FC = () => {
 		mode: 'onChange'
 	});
 
-	const TOKEN = "7306725521:AAEPMn9FJYP7fyw3NgzYXOrnHI5XHREnIPs"!;
-	const CHAT_ID = "-1002178912134"!;
+	const TOKEN = '7306725521:AAEPMn9FJYP7fyw3NgzYXOrnHI5XHREnIPs'!;
+	const CHAT_ID = '-1002178912134'!;
 	const API_URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 	const messageModel = (data: FormData) => {
@@ -195,7 +195,7 @@ const ContactPage: FC = () => {
 											placeholder={intl.formatMessage({
 												id: 'page.contact.input.message'
 											})}
-											{...register('message')}
+											{...register('message', { required: true })}
 										/>
 										<label htmlFor="subject" className={scss.form__label}>
 											<FormattedMessage id="page.contact.input.message" />
