@@ -13,6 +13,11 @@ interface techIconsTypes {
 	name: string;
 }
 
+export const metadata = {
+	title: 'Your New Title',
+	description: 'Your description here'
+};
+
 const HomePage: FC = () => {
 	const [isTiltActive, setIsTiltActive] = useState<boolean>(true);
 	const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
@@ -164,8 +169,7 @@ const HomePage: FC = () => {
 										custom={1}
 										variants={animationImage}
 										className={`${scss.shape}`}
-									>
-									</motion.div>
+									></motion.div>
 								</Tilt>
 							</div>
 						</div>
