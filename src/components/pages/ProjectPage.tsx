@@ -3,7 +3,7 @@ import scss from './Style.module.scss';
 import Image from 'next/image';
 import elchocrud from '@/assets/projects/mar4ik.png';
 import eco_movie from '@/assets/projects/restran.png';
-import wedevx_selenium from '@/assets/projects/wedevx-selenium.png';
+import wedevx_selenium from '@/assets/projects/dodo-pizza.png';
 import ortodont_group from '@/assets/projects/ortodont-group.png';
 import amo_crm from '@/assets/projects/motionweb.png';
 import telegram_sms_bot from '@/assets/projects/telegram-sms-bot.png';
@@ -48,11 +48,11 @@ const ProjectPage: FC = () => {
 			image: eco_movie
 		},
 		{
-			title: 'Jordan 🐬',
+			title: 'Mar4ik DODO-PIZZA 🐬',
 			description:
-				"Jordan - an innovative platform dedicated to providing comprehensive information about Jordan. Here, you can explore detailed insights into Jordan's rich history, culture, landmarks, and attractions. Whether you're interested in ancient ruins like Petra, the vibrant culture of Amman, or the stunning landscapes of Wadi Rum, Jordan offers a wealth of knowledge to help you plan your visit and immerse yourself in this remarkable country.",
+				'DODO Pizza is an international pizza chain founded in 2011 in Kyrgyzstan, known for its innovative business approach, transparency, and use of digital technologies. Key features of DODO Pizza include:',
 			stack: ['NextJS', 'TypeScript', 'Material UI'],
-			codeLink: '',
+			codeLink: 'https://github.com/arstan6ekovich/mar4ik_pizza.git',
 			demoLink: '',
 			image: wedevx_selenium
 		},
