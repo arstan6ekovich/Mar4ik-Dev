@@ -4,7 +4,7 @@ import Image from 'next/image';
 import elchocrud from '@/assets/projects/mar4ik.png';
 import eco_movie from '@/assets/projects/restran.png';
 import wedevx_selenium from '@/assets/projects/dodo-pizza.png';
-import ortodont_group from '@/assets/projects/ortodont-group.png';
+import ortodont_group from '@/assets/projects/dentist.png';
 import amo_crm from '@/assets/projects/motionweb.png';
 import telegram_sms_bot from '@/assets/projects/telegram-sms-bot.png';
 import devx_magazine from '@/assets/projects/devx-magazine.png';
@@ -57,12 +57,12 @@ const ProjectPage: FC = () => {
 			image: wedevx_selenium
 		},
 		{
-			title: 'Doctors Group 🪙',
+			title: 'Mar4ik Dev - Dentist 🪙',
 			description:
-				'Doctor - your reliable source of information on health and medical services. Our platform provides up-to-date and accurate details about various diseases, treatment methods, medical procedures, and preventive measures. Here, you can find advice from qualified specialists, recommendations for choosing doctors, and the latest news and research in the field of medicine. Doctor will help you stay informed about important health aspects and improve your quality of life.',
+				'Mar4ik Dev is a reliable platform for accessing information about health and medical services. The website offers up-to-date and accurate details on a wide range of medical topics, including diseases, treatment methods, medical procedures, and preventive measures. Users can find expert advice from qualified specialists, recommendations for choosing doctors, and the latest medical news and research. Mar4ik Dev is designed to help individuals stay informed about important health aspects and improve their overall quality of life.',
 			stack: ['NextJS', 'TypeScript', 'SCSS', 'RestAPI'],
-			codeLink: '',
-			demoLink: '',
+			codeLink: 'https://github.com/arstan6ekovich/mar4ik-Dentist.git',
+			demoLink: 'https://dentist.mar4ik.dev/',
 			image: ortodont_group
 		},
 		{
@@ -81,24 +81,24 @@ const ProjectPage: FC = () => {
 			demoLink: 'https://motion.mar4ik.dev/',
 			image: amo_crm
 		},
-		{
-			title: 'XB Shop🐬',
-			description:
-				'XB Shop - your ideal online store for convenient shopping. We offer a wide range of products, including electronics, clothing, accessories, and much more to meet all your needs. XB Shop guarantees high-quality products, competitive prices, and excellent customer service. Our user-friendly interface and secure payment system make the shopping process fast and enjoyable. Discover perfect items and enjoy shopping with XB Shop.',
-			stack: ['Express', 'TypeScript', 'Figma', 'RestAPI'],
-			codeLink: '',
-			demoLink: '',
-			image: telegram_sms_bot
-		},
-		{
-			title: 'Apple Shop 🐬',
-			description:
-				'Apple - your source for information on Apple products and services. Our platform provides detailed reviews and guides on the latest devices, including iPhone, iPad, MacBook, and other innovative Apple products. Discover new features, software updates, and get tips for optimizing your device usage. Apple helps you stay up-to-date with all the latest innovations and find the best solutions for your tech needs. ',
-			stack: ['React', 'SCSS', 'Firebase', 'RestAPI', 'Apple'],
-			codeLink: '',
-			demoLink: '',
-			image: devx_magazine
-		}
+		// {
+		// 	title: 'XB Shop🐬',
+		// 	description:
+		// 		'XB Shop - your ideal online store for convenient shopping. We offer a wide range of products, including electronics, clothing, accessories, and much more to meet all your needs. XB Shop guarantees high-quality products, competitive prices, and excellent customer service. Our user-friendly interface and secure payment system make the shopping process fast and enjoyable. Discover perfect items and enjoy shopping with XB Shop.',
+		// 	stack: ['Express', 'TypeScript', 'Figma', 'RestAPI'],
+		// 	codeLink: '',
+		// 	demoLink: '',
+		// 	image: telegram_sms_bot
+		// },
+		// {
+		// 	title: 'Apple Shop 🐬',
+		// 	description:
+		// 		'Apple - your source for information on Apple products and services. Our platform provides detailed reviews and guides on the latest devices, including iPhone, iPad, MacBook, and other innovative Apple products. Discover new features, software updates, and get tips for optimizing your device usage. Apple helps you stay up-to-date with all the latest innovations and find the best solutions for your tech needs. ',
+		// 	stack: ['React', 'SCSS', 'Firebase', 'RestAPI', 'Apple'],
+		// 	codeLink: '',
+		// 	demoLink: '',
+		// 	image: devx_magazine
+		// }
 
 		// {
 		// 	title: 'Diploma project 🪙',
