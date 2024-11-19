@@ -81,15 +81,15 @@ const ProjectPage: FC = () => {
 			demoLink: 'https://motion.mar4ik.dev/',
 			image: amo_crm
 		},
-		// {
-		// 	title: 'XB Shop🐬',
-		// 	description:
-		// 		'XB Shop - your ideal online store for convenient shopping. We offer a wide range of products, including electronics, clothing, accessories, and much more to meet all your needs. XB Shop guarantees high-quality products, competitive prices, and excellent customer service. Our user-friendly interface and secure payment system make the shopping process fast and enjoyable. Discover perfect items and enjoy shopping with XB Shop.',
-		// 	stack: ['Express', 'TypeScript', 'Figma', 'RestAPI'],
-		// 	codeLink: '',
-		// 	demoLink: '',
-		// 	image: telegram_sms_bot
-		// },
+		{
+			title: 'XB Shop🐬',
+			description:
+				'XB Shop - your ideal online store for convenient shopping. We offer a wide range of products, including electronics, clothing, accessories, and much more to meet all your needs. XB Shop guarantees high-quality products, competitive prices, and excellent customer service. Our user-friendly interface and secure payment system make the shopping process fast and enjoyable. Discover perfect items and enjoy shopping with XB Shop.',
+			stack: ['Express', 'TypeScript', 'Figma', 'RestAPI'],
+			codeLink: '/',
+			demoLink: '/',
+			image: telegram_sms_bot
+		},
 		// {
 		// 	title: 'Apple Shop 🐬',
 		// 	description:
