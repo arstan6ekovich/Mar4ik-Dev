@@ -6,7 +6,7 @@ const PreLoaderDevX: FC = () => {
 		<>
 			<div className={scss.preLoader}>
 				<p className={scss.title_loader}>
-					Dev<span>X</span>
+					Mar<span>4ik</span>
 				</p>
 				<span className={scss.loader}></span>
 			</div>
