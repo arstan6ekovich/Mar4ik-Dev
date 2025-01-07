@@ -8,7 +8,7 @@ const TypingTitle: FC = () => {
 	const texts = [
 		intl.formatMessage({ id: 'page.home.title_1' }),
 		intl.formatMessage({ id: 'page.home.title_2' }),
-		intl.formatMessage({ id: 'page.home.title_3' }),
+		intl.formatMessage({ id: 'page.home.title_3' })
 	];
 
 	return (

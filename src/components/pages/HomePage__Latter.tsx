@@ -111,7 +111,7 @@ const HomePage: FC = () => {
 										custom={16}
 										variants={animationIcons}
 										className={scss.icon}
-										href="https://github.com/Elkhan2003"
+										href="https://github.com/arstan6ekovich"
 										target="_blank"
 										aria-label="Linkedin"
 									>
@@ -121,7 +121,7 @@ const HomePage: FC = () => {
 										custom={18}
 										variants={animationIcons}
 										className={scss.icon}
-										href="https://github.com/Elkhan2003"
+										href="https://github.com/arstan6ekovich"
 										target="_blank"
 										aria-label="GitHub"
 									>

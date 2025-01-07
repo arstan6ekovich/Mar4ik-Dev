@@ -118,7 +118,7 @@ const HomePage: FC = () => {
 									variants={animationText}
 									className={`${scss.text__z__index} ${scss.my__name}`}
 								>
-									Hi, I'm Marlen (Mar4ik)
+									<FormattedMessage id="page.home.my_name" />
 								</motion.h1>
 								<motion.h1
 									custom={2}

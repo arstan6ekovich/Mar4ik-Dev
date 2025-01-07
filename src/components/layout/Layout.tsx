@@ -81,7 +81,7 @@ const Layout: FC<LayoutProps> = ({ children, dir, url }) => {
 			<div>
 				{loading ? (
 					<>
-					<PreLoaderDevX />
+						<PreLoaderDevX />
 					</>
 				) : (
 					<>
