@@ -5,7 +5,11 @@
 
 .footer__page {
 	padding: 15px 0;
-	background: rgba(26, 15, 33, 0.7);
+	// background: rgba(26, 15, 33, 0.7);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	background: var(--header-scroll-active);
+	box-shadow: 0px 0px 5px var(--header-scroll-box-shadow);
 
 	.content {
 		display: flex;
@@ -34,7 +38,7 @@
 			align-items: center;
 
 			span {
-				background: -webkit-linear-gradient(-70deg, #ef00fc 0%, #d287f6 100%);
+				background: -webkit-linear-gradient(-70deg, blue 0%, white 100%);
 				-webkit-background-clip: text;
 				background-clip: text;
 				-webkit-text-fill-color: rgba(0, 0, 0, 0);
@@ -70,15 +74,12 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-
 				svg {
 					font-size: 28px;
 					color: var(--footer-icon-dark);
-
 					transition: 0.3s;
-
 					&:hover {
-						color: #b509bd;
+						color: rgb(0, 149, 255);
 					}
 				}
 			}

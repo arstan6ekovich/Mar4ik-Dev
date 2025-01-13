@@ -141,7 +141,7 @@ const HomePage: FC = () => {
 										custom={11}
 										variants={animationIcons}
 										className={scss.icon}
-										href="https://www.linkedin.com"
+										href="https://www.linkedin.com/in/mar4ik-developer-8b2863331/"
 										target="_blank"
 										aria-label="Linkedin"
 									>

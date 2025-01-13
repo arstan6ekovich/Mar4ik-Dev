@@ -71,15 +71,15 @@ const Header: FC<HeaderProps> = (props) => {
 			offset: offsetScroll,
 			duration: durationScroll
 		},
-		{
-			label: <FormattedMessage id="page.header.project" />,
-			to: 'project',
-			href: '#project',
-			spy: true,
-			smooth: true,
-			offset: offsetScroll,
-			duration: durationScroll
-		},
+		// {
+		// 	label: <FormattedMessage id="page.header.project" />,
+		// 	to: 'project',
+		// 	href: '#project',
+		// 	spy: true,
+		// 	smooth: true,
+		// 	offset: offsetScroll,
+		// 	duration: durationScroll
+		// },
 		{
 			label: <FormattedMessage id="page.header.contact" />,
 			to: 'contact',
@@ -125,7 +125,7 @@ const Header: FC<HeaderProps> = (props) => {
 										handleScroll();
 									}}
 								>
-									<h1 className={scss.logo__bg}>Mar4ik_Dev</h1>
+									<h1 className={scss.logo__bg}>Mar4ik Dev</h1>
 								</ScrollLink>
 							</div>
 							<div className={scss.nav__menu}>

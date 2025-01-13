@@ -13,16 +13,14 @@
 		background: var(--header-scroll);
 
 		// transition: padding 0.5s, background 0.2s;
-		transition:
-			padding 0.5s,
-			background 0.2s;
+		transition: padding 0.5s, background 0.2s;
 
 		@media (max-width: 767px) {
 			padding: 10px 0;
 			backdrop-filter: none;
 			-webkit-backdrop-filter: none;
 
-			background: #18131de0;
+			background: rgba(0, 0, 255, 0.076);
 			box-shadow: none;
 		}
 	}
@@ -56,7 +54,7 @@
 		display: flex;
 		align-items: center;
 		margin-right: 2rem;
-
+		width: 300px;
 		a {
 			text-decoration: none;
 			color: var(--header-text-color);
@@ -120,7 +118,7 @@
 
 			&.active {
 				//color: var(--header-text-color-active);
-				background: -webkit-linear-gradient(-70deg, #ef00fc 0%, #d287f6 100%);
+				background: -webkit-linear-gradient(-70deg, white 0%, blue 100%);
 				-webkit-background-clip: text;
 				background-clip: text;
 				-webkit-text-fill-color: rgba(0, 0, 0, 0);
@@ -181,8 +179,8 @@
 
 			.dropdown__content {
 				position: absolute;
-				background: rgba(31, 8, 47, 0.9);
-
+				backdrop-filter: blur(5px);
+				background: rgba(255, 255, 255, 0.135);
 				top: 42px;
 				right: 0;
 				opacity: 0;
@@ -195,10 +193,7 @@
 
 				border-radius: 10px;
 				transform: scale(0.8) translateZ(0);
-				transition:
-					opacity 0.2s,
-					transform 0.3s,
-					visibility 0s;
+				transition: opacity 0.2s, transform 0.3s, visibility 0s;
 
 				cursor: default;
 
@@ -228,7 +223,7 @@
 				}
 
 				.button.active {
-					color: #ef00fc;
+					color: rgba(0, 0, 255, 0.851);
 
 					cursor: not-allowed;
 
@@ -297,7 +292,6 @@
 		//background: var(--header-burger-menu);
 		background: #1a0f21f2;
 		border: 1px solid var(--header-burger-menu-border);
-
 		position: absolute;
 		right: 0;
 		top: 50px;
@@ -344,11 +338,11 @@
 			}
 
 			&:hover {
-				color: #ef00fc;
+				color: blue;
 			}
 
 			&.active {
-				color: #ef00fc;
+				color: blue;
 			}
 		}
 
@@ -376,7 +370,7 @@
 				cursor: pointer;
 
 				&:hover {
-					color: #ef00fc;
+					color: blue;
 				}
 
 				@media (max-width: 700px) {
@@ -437,11 +431,11 @@
 					}
 
 					&:hover {
-						color: #ef00fc;
+						color: blue;
 					}
 
 					&.active {
-						color: #ef00fc;
+						color: blue;
 					}
 				}
 			}
@@ -449,7 +443,7 @@
 
 		.dropdown__language__menu__for__mobile.open {
 			span {
-				color: #ef00fc;
+				color: white;
 
 				.arrow__icon__V2 {
 					transform: translateY(-50%) rotate(360deg);
