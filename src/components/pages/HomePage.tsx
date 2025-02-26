@@ -50,7 +50,8 @@ const HomePage: FC = () => {
 		{ icon: TechIcons.my_sql_icon, name: 'MySQL' },
 		{ icon: TechIcons.postgresql_icon, name: 'PostgreSQL' },
 		{ icon: TechIcons.docker_icon, name: 'Docker' },
-		{ icon: TechIcons.git_icon, name: 'Git' }
+		{ icon: TechIcons.git_icon, name: 'Git' },
+		{ icon: TechIcons.react_native, name: 'React Native' }
 	];
 
 	const animationText = {

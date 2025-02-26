@@ -20,3 +20,4 @@ export { default as postgresql_icon } from './postgresql.png';
 export { default as express_icon } from './express-icon.png';
 export { default as git_icon } from './git-icon.png';
 export { default as docker_icon } from './docker-icon.png';
+export { default as react_native } from "./react-icon.png";
