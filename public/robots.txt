@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mar4ik.pro/sitemap.xml
