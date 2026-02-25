@@ -6,7 +6,6 @@ import { FormattedMessage } from 'react-intl';
 import scss from './Header.module.scss';
 import { LangIcon, ArrowIcon, ArrowUpRightIcon } from '@/components/svgs';
 import AnimatedNumbers from '@/components/framer-motion/AnimatedNumbers';
-
 // PermanentMarker
 
 import { IsOpenProps } from '@/components/layout/Layout';
@@ -46,8 +45,7 @@ const Header: FC<HeaderProps> = (props) => {
 	}, []);
 
 	// ! Resume
-	const resume = 'https://mar4ik.dev';
-
+const resume = "/resume.pdf";
 	// ! Link Scroll
 	const offsetScroll = -30;
 	const durationScroll = 500;
