@@ -38,8 +38,8 @@ const ContactPage: FC = () => {
 		mode: 'onChange'
 	});
 
-	const TOKEN = '7306725521:AAEPMn9FJYP7fyw3NgzYXOrnHI5XHREnIPs'!;
-	const CHAT_ID = '-1002178912134'!;
+	const TOKEN = '8626691968:AAHWVEcaPQ4LuTwySGn6QcfdlOD8Bw7lN4U'!;
+	const CHAT_ID = '-5122970504'!;
 	const API_URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 	const messageModel = (data: FormData) => {
