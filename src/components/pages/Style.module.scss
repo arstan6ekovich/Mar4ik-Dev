@@ -785,10 +785,11 @@
 				border-bottom: 2px solid $gray;
 				color: $white;
 				padding: 7px 0;
+				font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 				background: transparent;
 				transition: border-color 0.2s;
 
-				font-size: 1.1rem;
+				font-size: 1.2rem;
 
 				&::placeholder {
 					color: transparent;

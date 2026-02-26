@@ -43,12 +43,19 @@ const ContactPage: FC = () => {
 	const API_URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 	const messageModel = (data: FormData) => {
-		let messageTG = `Name: <b>${data.name}</b>\n`;
-		messageTG += `Email: <b>${data.email}</b>\n`;
-		messageTG += `Subject: <b>${data.subject}</b>\n`;
-		messageTG += `Message: <b>${data.message}</b>\n`;
+		return `
+<b>📩 Новая заявка с сайта</b>
 
-		return messageTG;
+<b>👤 Имя:</b> ${data.name}
+<b>📧 Email:</b> ${data.email}
+<b>📝 Тема:</b> ${data.subject}
+
+<b>💬 Сообщение:</b>
+<blockquote>${data.message}</blockquote>
+
+──────────────
+<i>Отправлено с портфолио сайта</i>
+`;
 	};
 
 	const sendData = async (data: FormData) => {
